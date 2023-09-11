@@ -6,5 +6,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    image: moisesjurad0/tmp.flask.app1.main
     ports:
       - "5000:5000"
